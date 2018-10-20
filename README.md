@@ -1,4 +1,4 @@
-Logs Analysis
+Logs Analysis-
 
 -Project Description
 
@@ -10,13 +10,18 @@ Logs Analysis
 3)Days when errors were more than 1% of overall days requests
 
 
+
 -Requirements
 
 It requires PostgreSQL, Python in order to run.
 
-Database Set-up
+
+
+-Database Set-up
+
 using this 'psql -d news -f newsdata.sql' you will be able to connect to datbase and run the sql file.
 get newsdata.sql https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip.
 
-How to run
+
+-How to run
 In order to run you need to run python3 log_analysis.py
