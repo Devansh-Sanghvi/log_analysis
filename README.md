@@ -1,17 +1,21 @@
-Welcome To Log Analysis Project
+Logs Analysis
 
-This project runs through the database of a news website, and lets you know following
+-Project Description
 
-1)Most popular articles
+-The purpose of the project is to do a log analysis of a given data for a news paper company
+-The script basically runs over a data and generates a report which comprises of following:
 
-2)Most popular Authors
+1)Three Most Popular Article with number of views
+2)Most Popular Authors
+3)Days when errors were more than 1% of overall days requests
 
-3)Days when more than 1% errors occurred while users were surfing
 
+-Requirements
+It requires PostgreSQL, Python in order to run.
 
+Database Set-up
+using this 'psql -d news -f newsdata.sql' you will be able to connect to datbase and run the sql file.
+get newsdata.sql https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip.
 
-Following functions are called respectively-
-
-top_three_articles()
-top_authors()
-one_perc_error()
+How to run
+In order to run you need to run python3 log_analysis.py
