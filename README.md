@@ -10,11 +10,9 @@ Logs Analysis-
 3)Days when errors were more than 1% of overall days requests
 
 
-
 -Requirements
 
 It requires PostgreSQL, Python in order to run.
-
 
 
 -Database Set-up
@@ -24,4 +22,5 @@ get newsdata.sql https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f7
 
 
 -How to run
+
 In order to run you need to run python3 log_analysis.py
