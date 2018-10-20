@@ -11,6 +11,7 @@ Logs Analysis
 
 
 -Requirements
+
 It requires PostgreSQL, Python in order to run.
 
 Database Set-up

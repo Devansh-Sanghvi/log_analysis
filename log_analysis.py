@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import psycopg2
 from datetime import datetime
 
@@ -14,6 +16,8 @@ def top_three_articles():
         print(str(i) + ") " + data[0] + " - " + str(data[1]) + " Views\n")
         i+=1
     print("-----------------")
+
+
 
 
 def top_authors():
